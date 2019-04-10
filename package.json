@@ -1,0 +1,29 @@
+{
+  "name": "ias-floweranalysissensor",
+  "version": "0.0.1",
+  "description": "This is an iris-flower classification sensor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiithf/ias-floweranalysissensor.git"
+  },
+  "keywords": [
+    "ias",
+    "flower",
+    "analysis",
+    "sensor"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iiithf/ias-floweranalysissensor/issues"
+  },
+  "homepage": "https://github.com/iiithf/ias-floweranalysissensor#readme",
+  "dependencies": {
+    "csv-parse": "^4.4.0",
+    "express": "^4.16.4"
+  }
+}
