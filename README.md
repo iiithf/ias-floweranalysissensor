@@ -1,2 +1,1 @@
-# ias-floweranalysissensor
- This is an iris-flower classification sensor.
+This is an iris-flower classification sensor.
