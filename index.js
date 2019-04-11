@@ -6,9 +6,9 @@ const fs = require('fs');
 
 
 const E = process.env;
-const DATASET = 'iris.data';
-const DATARATE = 500;
 const PORT = parseInt(E['PORT']||'8000', 10);
+const DATASET = 'iris.data';
+const DATARATE = parseInt(E['DATARATE']||'500', 10);
 const app = express();
 const server = http.createServer(app);
 var inputs = [], input_i = 0;
