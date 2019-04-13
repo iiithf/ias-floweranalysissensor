@@ -1,6 +1,6 @@
 {
   "name": "ias-floweranalysissensor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This is an iris-flower classification sensor.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,8 @@
   "homepage": "https://github.com/iiithf/ias-floweranalysissensor#readme",
   "dependencies": {
     "csv-parse": "^4.4.0",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "extra-net": "^1.1.0",
+    "pickle": "^0.2.0"
   }
 }
